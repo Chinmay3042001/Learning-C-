@@ -34,6 +34,34 @@ also learned Makefile
 
     std::cout << "the sum is: " << s << std::endl;
 
+    /*
+    using size_t
+    
+    */
+
+    for(size_t i{0} ; i<375; i++){
+        std::cout << i << "I love C++" << std::endl;
+    }
+    /*
+    for for loops you can use the iterator i , you can mention the 
+    datattype of the iterator and in curly braces the entry point of the iterator 
+    say you want to loop from 5 to 10 or n to f(n),
+    use i{n} i<f(n)
+    
+    */
+
+    std::cout << "The size of size_t is: " << sizeof(size_t) << std::endl;
+
+    /* using auto keyword
+    */
+
+    auto var0 {12};
+    auto var1 {12.4325};
+    auto var2 {"dewhavifkca"};
+
+    std::cout << var0 << " " << var1 << " " << var2 << " " << typeid(var2).name() << std::endl;
+
+
     return 0;
 }
 /**
